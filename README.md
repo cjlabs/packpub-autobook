@@ -8,7 +8,7 @@ auto booking for free e-book from packpub
 - edit file ClaimCept.php, change the email and password with your packpub creadential 
 - testing with php using : php codeception/vendor/bin/codecept run acceptance ClaimCept
 - added cronjob to makes this automatically
-
-0 11 * * * /usr/local/bin/php  /yourpath/packpub-autobook/codeception/vendor/bin/codecept run acceptance ClaimCept
+  Example: run every 11:00 a.m 
+  0 11 * * * /usr/local/bin/php  /yourpath/packpub-autobook/codeception/vendor/bin/codecept run acceptance ClaimCept
 
 
