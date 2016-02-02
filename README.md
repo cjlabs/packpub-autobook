@@ -9,6 +9,7 @@ auto booking for free e-book from packpub
 - testing with php using : php codeception/vendor/bin/codecept run acceptance ClaimCept
 - added cronjob to makes this automatically
   Example: run every 11:00 a.m 
+  
   0 11 * * * /usr/local/bin/php  /yourpath/packpub-autobook/codeception/vendor/bin/codecept run acceptance ClaimCept
 
 
